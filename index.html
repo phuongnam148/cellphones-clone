@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CellphoneS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <header class="row header">
+        <section class="box_center">
+            <div class="flex_box">
+                <div class="logo">
+                    <a href="index.html"><img id="logo-nav" src="img/screenshot_1632557892.png" alt=""></a>
+                    <a href="index.html"><img id="logo-cellphone" src="img/download.png" alt=""></a>
+                </div>
+
+                <div class="ton-kho hid">
+                    Xem giá, tồn kho tại: Hồ Chí Minh
+                    <ul class="drop-box">
+                        <li><a href="">Hồ Chí Minh</a> </li>
+                        <li><a href="">Hà Nội</a></li>
+                        <li><a href="">Bình Dương</a></li>
+                        <li><a href="">Hải Dương</a></li>
+                        <li><a href="">Hải Phòng</a></li>
+                        <li><a href="">Bắc Ninh</a></li>
+                    </ul>
+                </div>
+
+                <div class="hid">
+                    <input class="boxSearch" placeholder=" Bạn cần tìm gì?">
+                    </input>
+                </div>
+                <div class="goi-mua-hang hidden">
+                    <a href="#3">
+                        <div> <i class="fa fa-phone"></i></div>
+                        <div>
+                            Gọi mua hàng <br> <strong>1800.2097</strong>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="cua-hang-gan hidden">
+                    <a href="#4">
+                        <div><i class="fa fa-map-marker-alt"></i></div>
+                        <div>Cửa hàng gần bạn</div>
+                    </a>
+                </div>
+
+                <div class="tcdh hidden">
+                    <a href="#4">
+                        <div><i class="fa fa-truck-moving"></i> </div>
+                        <div>Tra cứu đơn hàng</div>
+                    </a>
+                </div>
+
+                <div class="gio-hang hidden">
+                    <a href="gio_hang.html">
+                        <div><i class="fa fa-shopping-basket"></i></div>
+                        <div> Giỏ hàng</div>
+                    </a>
+                </div>
+
+                <div class="smember">
+                    <a id="modelBtn" onclick="document.getElementById('id01').style.display='block'">
+                        <img src="img/smember.png" alt="">
+                        <p id="modelBtn">Đăng nhập</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <nav class="nav">
+        <div class="box_center">
+            <div class="flex_box">
+                <div class="nav_menu hidden shadow">
+                    <ul id="category">
+                    </ul>
+                </div>
+
+                <div class="nav_center shadow">
+                    <!-- <iframe name="nav_page" src="banner_ip.html" frameborder="0"></iframe>
+                    <div class="menu_center">
+                        <ul>
+                            <li><a href="banner_ip.html" target="nav_page">
+                                iPhone 13 Series <br> Chính hãng VN/A </a></li>
+                            <li><a href="https://cdn.cellphones.com.vn/media/ltsoft/promotion/fold---690-300-max.png" target="nav_page">
+                                Z FOLD3 | Z FlIP 3 <br> 5G Ưu đãi cực lớn   </a> </li>
+                            <li><a href="https://cdn.cellphones.com.vn/media/ltsoft/promotion/11t-seriees-690x300_9_.png" target="nav_page">
+                                XIAOMI 11T SERIES <br> Đặt trước ưu đãi khủng   </a> </li>
+                            <li><a href="https://cdn.cellphones.com.vn/media/ltsoft/promotion/asus-gaming-690-300-max.png" target="nav_page">ASUS GAMING <br> Ưu đãi tựu trường</a></li>
+                            <li><a href="https://cdn.cellphones.com.vn/media/ltsoft/promotion/charge-5-690-300-max.png" target="nav_page">Loa JBL CHARGE 5 <br> Mở bán quà ngon</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="slidershow">
+                        <div class="slides ">
+                            <input class="radio" type="radio" name="r" id="r1" checked>
+                            <input class="radio" type="radio" name="r" id="r2">
+                            <input class="radio" type="radio" name="r" id="r3">
+                            <input class="radio" type="radio" name="r" id="r4">
+                            <input class="radio" type="radio" name="r" id="r5">
+                            <div class="slide s1">
+                                <a href="ip13.html">
+                                    <img src="img/BANNER-IP13_2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="ip12.html">
+                                    <img src="img/iphone-12-banner.png" alt="">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="">
+                                    <img src="img/banner_samsung.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="">
+                                    <img src="img/slide_2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="slide">
+                                <a href="">
+                                    <img src="img/slide_3.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="navigation-auto">
+                                <div class="auto-btn1">
+                                    <p>iPhone 13 Series <br> Chính hãng VN/A </p>
+                                </div>
+                                <div class="auto-btn2">
+                                    <p>iPhone 12 Series <br> Rẻ nhất thị trường</p>
+                                </div>
+                                <div class="auto-btn3">
+                                    <p>Z FOLD3 | Z FlIP 3 <br> 5G Ưu đãi cực lớn</p>
+                                </div>
+                                <div class="auto-btn4">
+                                    <p>XIAOMI 11T SERIES <br> Đặt trước ưu đãi khủng </p>
+                                </div>
+                                <div class="auto-btn5">
+                                    <p>ASUS GAMING <br> Ưu đãi tựu trường</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="navigations">
+                        <label for="r1" class="bar" id="bar1"></label>
+                        <label for="r2" class="bar"></label>
+                        <label for="r3" class="bar"></label>
+                        <label for="r4" class="bar"></label>
+                        <label for="r5" class="bar"></label>
+                    </div>
+                </div>
+
+                <div class="nav_right">
+                    <a href=""> <img src="img/a52sRight_banner.jpg" alt=""></a>
+                    <a href="ip12.html"> <img src="img/ip-12-r690-300-max.jpg" alt=""></a>
+                    <a href="">
+
+                        <img src="img/lttt-right-690-300-max.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="row info">
+        <div class="box_center">
+            <a href="ip13.html"><img class="banner_ip" src="img/ip13-no-Special_Banner_1200x75_Desktop_No_Promo.jpg"
+                    alt=""></a>
+
+            <div class="box-product" id="phoneProduct">
+                <h3 class="info_title">ĐIỆN THOẠI NỔI BẬT NHẤT</h3>
+                <!-- <div id="phoneProduct">
+
+                </div> -->
+                <!-- <a href="iphone12-pro-max.html">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <img src="img/ip13-pro_2.jpg" alt="" class="image">
+                            <div class="name">IPhone 13 | Chính hãng VN/A</div>
+                            <div class="sap-ve-hang">sắp về hàng</div>
+                            <div class="price">24.990.000 ₫</div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 8 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="iphone12-pro-max.html">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <img src="img/sm-f926_zfold3_5g_openback_phantomsilver_210611.jpg" alt="" class="image">
+                            <div class="name">Samsung Galaxy Z Fold3 5G</div>
+                            <div class="sap-ve-hang">sắp về hàng</div>
+                            <div class="price">41.990.000 ₫</div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 2 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="iphone12-pro-max.html">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales"> Giảm 8% </div>
+                            <img src="img/iphone_11_white_4_.jpg" alt="" class="image">
+                            <div class="name">iPhone 11 I Chính hãng VN/A</div>
+                            <div class="price">
+                                16.500.000 ₫
+                                <p class="old-price"> 18.000.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 59 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="iphone12-pro-max.html">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 9%
+                            </div>
+                            <img src="img/iphone-12-pro-max_1__7_1.jpg" alt="" class="image">
+                            <div class="name">iPhone 12 Pro Max I Chính hãng VN/A</div>
+                            <div class="price">
+                                30.000.000 ₫
+                                <p class="old-price"> 32.990.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 161 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="iphone12-pro-max.html">
+                    <div class="col-20 ">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 13%
+                            </div>
+                            <div class="box-hotsale">
+                            </div>
+                            <img src="img/iphone-12_2__3.jpg" alt="" class="image">
+                            <div class="name">iPhone 12 I Chính hãng VN/A</div>
+                            <div class="price">
+                                20.000.000 ₫
+                                <p class="old-price"> 22.990.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 56 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="iphone12-pro-max.html">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 37%
+                            </div>
+                            <img src="img/6.jpg" alt="" class="image">
+                            <div class="name">Samsung Galaxy Note 20 Ultra 5G </div>
+                            <div class="price">
+                                20.500.000 ₫
+                                <p class="old-price"> 32.990.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 21 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="iphone12-pro-max.html">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 14%
+                            </div>
+                            <div class="box-hotsale"></div>
+                            <img src="img/7_xiaomi-mi-11-lite-5g-2_10.jpg" alt="" class="image">
+                            <div class="name">Xiaomi Mi 11 Lite 5G</div>
+                            <div class="price">8.990.000 ₫
+                                <p class="old-price"> 10.490.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 89 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="iphone12-pro-max.html">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 31%
+                            </div>
+                            <img src="img/8-samsung-galaxy-s21-ultra-1_1.jpg" alt="" class="image">
+                            <div class="name">Samsung Galaxy S21 Ultra 5G</div>
+                            <div class="price">21.300.000 ₫
+                                <p class="old-price"> 30.990.000 ₫</p>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 11 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="iphone12-pro-max.html">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 17%
+                            </div>
+                            <img src="img/9-samsung-galaxy-a72-30.jpg" alt="" class="image">
+                            <div class="name">ASUS ROG Phone 5 chính hãng</div>
+                            <div class="price">18.990.000 ₫
+                                <p class="old-price"> 22.990.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 47 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="iphone12-pro-max.html">
+                    <div class="col-20 ">
+                        <div class="prod shadow">
+                            <img src="img/10-001_2.jpg" alt="" class="image">
+                            <div class="name">Xiaomi Redmi 10 (4GB - 128GB)</div>
+                            <div class="price">4.290.000 ₫</div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 4 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a> -->
+            </div>
+
+        </div>
+    </section>
+
+    <section class="row info">
+        <div class="box_center">
+            <div class="box-product">
+                <h3 class="info_title">LAPTOP</h3>
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <img src="img/Lap_1.jpg" alt="" class="image">
+                            <div class="name">Apple MacBook Air M1 256GB 2020 I Chính hãng Apple Việt Nam</div>
+                            <div class="price">28.990.000 ₫</div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 11 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <img src="img/Lap_2.jpg" alt="" class="image">
+                            <div class="name">Apple MacBook Pro 13 Touch Bar M1 256GB 2020 I Chính hãng Apple Việt Nam
+                            </div>
+                            <div class="price">
+                                35.00.000 ₫
+                                <p class="old-price"> 35.900.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 1 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <img src="img/Lap_3.jpg" alt="" class="image">
+                            <div class="name">Laptop MSI Gaming BRAVO 15 A4DCR-270VN</div>
+                            <div class="price">
+                                19.090.000 ₫
+                                <p class="old-price"> 19.490.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 161 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 4%
+                            </div>
+                            <div class="box-hotsale">
+                            </div>
+                            <img src="img/Lap_4.jpg" alt="" class="image">
+                            <div class="name">Apple MacBook Air 13 inch 128GB MQD32 I Chính hãng Apple Việt Nam</div>
+                            <div class="price">
+                                20.000.000 ₫
+                                <p class="old-price"> 21.000.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 56 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 18%
+                            </div>
+                            <div class="box-hotsale"></div>
+                            <img src="img/Lap_5.jpg" alt="" class="image">
+                            <div class="name">Surface Laptop Go Core i5 / 8GB / 128 GB / 12.4 inch Chính Hãng</div>
+                            <div class="price">19.670.000 ₫
+                                <p class="old-price"> 23.900.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 89 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="row info">
+        <div class="box_center">
+            <div class="box-product">
+                <h3 class="info_title">TABLET</h3>
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <img src="img/Tablet_1.jpg" alt="" class="image">
+                            <div class="name">iPad 10.2 2021 WiFi 64GB | Chính hãng Apple Việt Nam</div>
+                            <div class="price">Đăng ký nhận tin</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <img src="img/Tablet_2.jpg" alt="" class="image">
+                            <div class="box-hotsale"> </div>
+                            <div class="name">iPad Air 10.9 2020 WiFi 64GB I Chính hãng Apple Việt Nam</div>
+                            <div class="price">
+                                16.990.000 ₫
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 13 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <img src="img/Tablet_3.jpg" alt="" class="image">
+                            <div class="name">Apple iPad Pro 11 2021 M1 WiFi 128GB I Chính hãng Apple Việt Nam</div>
+                            <div class="price">
+                                22.990.000 ₫
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 8 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 12%
+                            </div>
+                            <div class="box-hotsale"> </div>
+                            <img src="img/Tablet_4.jpg" alt="" class="image">
+                            <div class="name">Samsung Galaxy Tab S7 Plus</div>
+                            <div class="price">
+                                21.000.000 ₫
+                                <p class="old-price"> 23.990.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 15 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 4%
+                            </div>
+                            <img src="img/Tablet_5.jpg" alt="" class="image">
+                            <div class="name">iPad Air 10.9 2020 4G 64GB I Chính hãng Apple Việt Nam</div>
+                            <div class="price">20.000.000 ₫
+                                <p class="old-price"> 20.900.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 89 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="row info">
+        <div class="box_center">
+            <div class="box-product">
+                <h3 class="info_title">ÂM THANH</h3>
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales"> Giảm 11% </div>
+                            <img src="img/sound_1.jpg" alt="" class="image">
+                            <div class="name">Tai nghe Bluetooth Apple AirPods 2 VN/A</div>
+                            <div class="price">3.550.000 ₫
+                                <p class="old-price"> 5.600.000 ₫</p>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 38 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales"> Giảm 29% </div>
+                            <img src="img/sound_2.jpg" alt="" class="image">
+                            <div class="name">Tai nghe không dây Beats Studio Buds | Chính hãng Apple Việt Nam </div>
+                            <div class="price">
+                                3.700.000 ₫
+                                <p class="old-price"> 3.900.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 10 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales"> Giảm 4% </div>
+                            <img src="img/sound_3.jpg" alt="" class="image">
+                            <div class="name">Tai nghe không dây Beats Studio Buds | Chính hãng Apple Việt Nam</div>
+                            <div class="price">
+                                3.700.000 ₫
+                                <p class="old-price"> 3.990.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 1 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales"> Giảm 62% </div>
+                            <div class="box-hotsale">
+                            </div>
+                            <img src="img/sound_4.jpg" alt="" class="image">
+                            <div class="name">Tai nghe Bluetooth Samsung Galaxy Buds Live</div>
+                            <div class="price">
+                                1.690.000 ₫
+                                <p class="old-price"> 4.490.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 15 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 9%
+                            </div>
+                            <img src="img/sound_5.jpg" alt="" class="image">
+                            <div class="name">Tai nghe không dây Samsung Galaxy Buds 2</div>
+                            <div class="price">2.700.000 ₫
+                                <p class="old-price"> 3.990.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 69 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="row info">
+        <div class="box_center">
+            <div class="box-product">
+                <h3 class="info_title">ĐỒNG HỒ THÔNG MINH</h3>
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <img src="img/watch_1.jpg" alt="" class="image">
+                            <div class="name">Apple Watch Series 7 41mm (GPS) Viền nhôm dây cao su | Chính hãng VN/A
+                            </div>
+                            <div class="sap-ve-hang">sắp về hàng</div>
+                            <div class="price">12.990.000 ₫</div>
+
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 43%
+                            </div>
+                            <img src="img/watch_2.jpg" alt="" class="image">
+                            <div class="name">Đồng hồ thông minh Samsung Galaxy Watch 3 viền thép 41mm</div>
+                            <div class="price">
+                                5.400.000 ₫
+                                <p class="old-price"> 9.490.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 8 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 5%
+                            </div>
+                            <img src="img/watch_3.jpg" alt="" class="image">
+                            <div class="name">Samsung Galaxy Watch 4</div>
+                            <div class="price">
+                                6.590.000 ₫
+                                <p class="old-price"> 6.990.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 1 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 45%
+                            </div>
+                            <img src="img/watch_4.jpg" alt="" class="image">
+                            <div class="name">Đồng hồ thông minh Xiaomi Mi Watch Lite</div>
+                            <div class="price">
+                                1.090.000 ₫
+                                <p class="old-price"> 1.990.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 6 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="col-20">
+                        <div class="prod shadow">
+                            <div class="box-sales">
+                                Giảm 13%
+                            </div>
+                            <div class="box-hotsale"></div>
+                            <img src="img/watch_5.jpg" alt="" class="image">
+                            <div class="name">Vòng đeo tay thông minh Huawei Band 6</div>
+                            <div class="price">1.290.000 ₫
+                                <p class="old-price"> 1.490.000 ₫</p>
+                            </div>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> 17 đánh giá
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="row footer shadow">
+        <div class="box_center">
+            <div class="footer_content ">
+                <div class="footer_row ">
+                    <a href="">Mua hàng từ xa</a>
+                    <a href="" style="color: red;"> Gặp trực tiếp cửa hàng gần nhất (Zalo hoặc gọi điện) </a>
+                    <h5>
+                        Phương thức thanh toán
+                    </h5>
+                    <div class="payment">
+                        <div class="shadow">
+                            <a href=""><img src="img/1_visa.png" alt=""></a>
+                        </div>
+                        <div class="shadow">
+                            <a href=""><img src="img/zalo_pay.png" alt=""></a>
+                        </div>
+                        <div class="shadow">
+                            <a href=""><img src="img/momo.png" alt=""></a>
+                        </div>
+                        <div class="shadow">
+                            <a href=""><img src="img/vnpay.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_row">
+                    <a href="">Gọi mua hàng: 1800.2097 (8h00 - 22h00)</a>
+                    <a href="">Gọi khiếu nại: 1800.2063 (8h00 - 21h30)</a>
+                    <a href="">Gọi bảo hành: 1800.2064 (8h00 - 21h00)</a>
+                    <h5>Đối tác dịch vụ bảo hành</h5>
+                    <a href="">
+                        <img src="img/dien_thoai_vui.png" alt="" class="dien_thoai_vui">
+                    </a>
+                </div>
+                <div class="footer_row">
+                    <a href="">Mua hàng và thanh toán Online</a>
+                    <a href="">Mua hàng trả góp Online</a>
+                    <a href="">Tra thông tin đơn hàng</a>
+                    <a href="">Tra điểm Smember</a>
+                    <a href="">Tra thông tin bảo hành</a>
+                    <a href="">Tra cứu hoá đơn điện tử</a>
+                    <a href="">Trung tâm bảo hành chính hãng</a>
+                    <a href="">Quy định về việc sao lưu dữ liệu</a>
+                    <a href="">Dịch vụ bảo hành điện thoại</a>
+                </div>
+                <div class="footer_row">
+                    <a href="">
+                        Quy chế hoạt động
+                    </a>
+                    <a href="">
+                        Chính sách Bảo hành
+                    </a>
+                    <a href="">
+                        Liên hệ hợp tác kinh doanh
+                    </a>
+                    <a href="">
+                        Đơn Doanh nghiệp
+                    </a>
+                    <a href="">
+                        Ưu đãi từ đối tác
+                    </a>
+                    <a href="">
+                        Tuyển dụng
+                    </a>
+                </div>
+
+            </div>
+            <!-- <div class="map">
+                <h2>Tìm cửa hàng</h2>
+                <p>525A Quang Trung, P.10, Quận Gò Vấp
+                    <br> TRUNG TÂM LAPTOP - SMARTHOME</p>
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12AFhxHOTBfIA_UV0QP-DZOG8skCL2yUX" width="90%" height="480"></iframe>
+            </div> -->
+        </div>
+
+        <div class="map shadow ">
+            <div class="box_center">
+                <strong>Hệ Thống cửa hàng bán lẻ CellphoneS</strong>
+                <br> Giờ cửa mở cửa: 8h00 - 22h00 (Áp dụng tuỳ cửa hàng)
+                <div class="map-col">
+                    <div>
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12AFhxHOTBfIA_UV0QP-DZOG8skCL2yUX"
+                            width="100%" height="250"></iframe>
+                        <strong>525A Quang Trung, P.10, Quận Gò Vấp</strong>
+                        <br> <strong style="color: red;"> TRUNG TÂM LAPTOP - SMARTHOME</strong>
+                        <br> Gọi shop: <strong>02871000525</strong>
+                    </div>
+                    <div>
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1cWoPUipB0he7GF7CojgXzgJcbpB3fu2S"
+                            width="100%" height="250"></iframe>
+                        <strong>5 Nguyễn Kiệm, P. 3, Q. Gò Vấp</strong>
+                        <br> Gọi shop: <strong> 02871063535</strong>
+                    </div>
+                    <div>
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14C5wfjoyiIG7ZBhEe6qZjNKDqtFTca2c"
+                            width="100%" height="250"></iframe>
+                        <strong>59 Quang Trung, P. 10, Q. Gò Vấp</strong>
+                        <br> Gọi shop: <strong> 02871063535</strong>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <a href="#" id="myBtn">
+        <i class="fa fa-angle-up"></i>
+    </a>
+
+
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'"
+      class="close" title="Close Modal">&times;</span>
+      
+        <!-- Modal Content -->
+        <form class="modal-content animate" action="/action_page.php">
+       
+          <div class="container">
+            <h2 style="text-align: center; color: red;">Đăng nhập tài khoản Smember</h2>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+      
+            <button type="submit">Login</button>
+           
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+
+    <script type="module" src="js/firebase.js"></script>
+    <script src="js/script.js"></script>
+    <script type="module" src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

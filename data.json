@@ -1,0 +1,485 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "name": "Điện thoại",
+      "icon": "fa fa-mobile-alt",
+      "sub_cate": [
+        {
+          "id": 1,
+          "name": "Apple"
+        },
+        {
+          "id": 2,
+          "name": "Samsung"
+        },
+        {
+          "id": 3,
+          "name": "Xiaomi"
+        },
+        {
+          "id": 4,
+          "name": "OPPO"
+        },
+        {
+          "id": 5,
+          "name": "Nokia"
+        },
+        {
+          "id": 6,
+          "name": "Realme"
+        },
+        {
+          "id": 7,
+          "name": "Vivo"
+        },
+        {
+          "id": 7,
+          "name": "Vsmart"
+        },
+        {
+          "id": 8,
+          "name": "POCO"
+        },
+        {
+          "id": 9,
+          "name": "OnePlus"
+        },
+        {
+          "id": 9,
+          "name": "OnePlus"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Laptop, PC, màn hình",
+      "icon": "fa fa-laptop",
+      "sub_cate": [
+        {
+          "id": 10,
+          "name": "Mac"
+        },
+        {
+          "id": 11,
+          "name": "HP"
+        },
+        {
+          "id": 12,
+          "name": "Dell"
+        },
+        {
+          "id": 13,
+          "name": "Lenovo"
+        },
+        {
+          "id": 14,
+          "name": "Asus"
+        },
+        {
+          "id": 15,
+          "name": "Acer"
+        },
+        {
+          "id": 16,
+          "name": "LG"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tablet",
+      "icon": "fa fa-tablet-alt",
+      "sub_cate": [
+        {
+          "id": 17,
+          "name": "iPad Pro"
+        },
+        {
+          "id": 18,
+          "name": "iPad Air"
+        },
+        {
+          "id": 19,
+          "name": "iPad mini"
+        },
+        {
+          "id": 20,
+          "name": "Samsung"
+        },
+        {
+          "id": 21,
+          "name": "Lenovo"
+        },
+        {
+          "id": 22,
+          "name": "Xiaomi"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Âm thanh",
+      "icon": "fab fa-itunes-note"
+    },
+    {
+      "id": 5,
+      "name": "Đồng hồ",
+      "icon": "ionicons ion-android-watch"
+    },
+    {
+      "id": 6,
+      "name": "Nhà thông minh",
+      "icon": "fa fa-home"
+    },
+    {
+      "id": 7,
+      "name": "Phụ kiện",
+      "icon": "fa fa-charging-station"
+    },
+    {
+      "id": 8,
+      "name": "Thu cũ",
+      "icon": "fa fa-money-bill-wave-alt"
+    },
+    {
+      "id": 9,
+      "name": "Hàng cũ",
+      "icon": "ionicons ion-loop"
+    },
+    {
+      "id": 10,
+      "name": "Sim thẻ",
+      "icon": "fa fa-sim-card"
+    },
+    {
+      "id": 11,
+      "name": "Khuyến mãi",
+      "icon": "ionicons ion-pricetag"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 13 Pro Max 128GB | Chính hãng VN/A",
+      "img": [
+        {
+          "description": "Xanh dương",
+          "url": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/3/_/3_51_1_7.jpg"
+        },
+        {
+          "description": "Xanh lá",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/6/0/600_iphone-13-pro-256gb-xanh-la_5.jpg"
+        },
+        {
+          "description": "Bạc",
+          "url": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/4/_/4_36_3_2_1_9.jpg"
+        },
+        {
+          "description": "Vàng",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/v/a/vanggg_3.jpg"
+        },
+        {
+          "description": "Xám",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/2/_/2_61_8_2_1_6.jpg"
+        }
+      ],
+      "price": 26990000,
+      "price_old": 34990000,
+      "cat_id": 1,
+      "promotion": "Thu cũ lên đời - Trợ giá 1 triệu",
+      "rating": 5,
+      "stored": 50,
+      "detail": "Hiệu năng vượt trội - Chip Apple A15 Bionic mạnh mẽ, hỗ trợ mạng 5G tốc độ cao ; Không gian hiển thị sống động - Màn hình 6.7ich Super Retina XDR độ sáng cao, sắc nét ; Trải nghiệm điện ảnh đỉnh cao - Cụm 3 camera kép 12MP, hỗ trợ ổn định hình ảnh quang học ; Tối ưu điện năng - Sạc nhanh 20 W, đầy 50% pin trong khoảng 30 phút"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 13 128GB | Chính hãng VN/A",
+      "img": [
+        {
+          "description": "Xanh dương",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/d/_/d_ng_3.jpg"
+        },
+        {
+          "description": "Xanh lá",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/x/n/xnnah_kas_3.png"
+        },
+        {
+          "description": "Đỏ",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/f/i/file_3_10.jpg"
+        },
+        {
+          "description": "Đen",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/_/e/_en_2_5.jpg"
+        },
+        {
+          "description": "Hồng",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/h/_/h_ng_4.jpg"
+        },
+        {
+          "description": "Trắng",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/t/r/tr_ng_5.jpg"
+        }
+      ],
+      "price": 18990000,
+      "price_old": 24990000,
+      "cat_id": 1,
+      "rating": 5,
+      "stored": 50,
+      "promotion": "Thu cũ lên đời - Trợ giá 1 triệu",
+      "detail": "Hiệu năng vượt trội - Chip Apple A15 Bionic mạnh mẽ, hỗ trợ mạng 5G tốc độ cao ; Không gian hiển thị sống động - Màn hình 6.7ich Super Retina XDR độ sáng cao, sắc nét ; Trải nghiệm điện ảnh đỉnh cao - Cụm 3 camera kép 12MP, hỗ trợ ổn định hình ảnh quang học ; Tối ưu điện năng - Sạc nhanh 20 W, đầy 50% pin trong khoảng 30 phút"
+    },
+    {
+      "id": 3,
+      "name": "Samsung Galaxy Z Fold4",
+      "img": [
+        {
+          "description": "Xanh",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/a/samsung_galaxy_z_fold_4-7_1.jpg"
+        },
+        {
+          "description": "Đen",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/a/samsung_galaxy_z_fold_4-19_1.jpg"
+        },
+        {
+          "description": "Kem",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/a/samsung_galaxy_z_fold_4-10_1.jpg"
+        }
+      ],
+      "price": 35990000,
+      "price_old": 40990000,
+      "cat_id": 1,
+      "rating": 5,
+      "stored": 50,
+      "promotion": "Giảm 3.500.000đ qua Galaxy Gift (Áp dụng bản 512GB) và <b>2 km</b> khác",
+      "detail": "Camera mắt thần bóng đêm cho trải nghiệm chụp ảnh ấn tượng - Camera chính: 50MP ;       Khai mở trải nghiệm di động linh hoạt biến hóa - Màn hình ngoài 6.2ich cùng màn hình chính 7.6ich độc đáo ;       Hiệu năng mạnh mẽ đến từ dòng chip cao cấp của Qualcomm - Snapdragon 8 Plus Gen 1 ; Viên pin ấn tượng, sạc nhanh tức tốc - Pin 4,400 mAh, sạc nhanh 25 W"
+    },
+    {
+      "id": 4,
+      "name": "iPhone 12 64GB I Chính hãng VN/A",
+      "img": [
+        {
+          "description": "Đỏ",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/f/i/file_3_10.jpg"
+        },
+        {
+          "description": "Xanh lá",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/2/_/2._l_.jpg"
+        },
+        {
+          "description": "Đen",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/2/_/2._en.jpg"
+        },
+        {
+          "description": "Trắng",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/6/_/6_129_1_1.jpg"
+        }
+      ],
+      "price": 15990000,
+      "price_old": 19990000,
+      "cat_id": 1,
+      "rating": 5,
+      "stored": 50,
+      "promotion": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
+      "detail": "Mạnh mẽ, siêu nhanh với chip A14, RAM 4GB, mạng 5G tốc độ cao ;      Rực rỡ, sắc nét, độ sáng cao - Màn hình OLED cao cấp, Super Retina XDR hỗ trợ HDR10, Dolby Vision ;      Chụp đêm ấn tượng - Night Mode cho 2 camera, thuật toán Deep Fusion, Smart HDR 3 ;       Bền bỉ vượt trội - Kháng nước, kháng bụi IP68, mặt lưng Ceramic Shield"
+    },
+    {
+      "id": 5,
+      "name": "Xiaomi Redmi Note 11",
+      "img": [
+        {
+          "description": "Xanh ",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/8/0/800x800-1-640x640-5_2_1.png"
+        },
+        {
+          "description": "Xanh Trắng",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/1/1/11_4_33.jpg"
+        },
+        {
+          "description": "Xám",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/8/0/800x800-640x640-5_3.png"
+        }
+      ],
+      "price": 4150000,
+      "price_old": 4690000,
+      "cat_id": 1,
+      "rating": 4,
+      "stored": 50,
+      "promotion": "Thu cũ đổi mới - Trợ giá đến 300.000đ",
+      "detail": "Nâng cao trải nghiệm thị giác - Màn hình AMOLED 6.43ich Full HD+, công nghệ DotDisplay ;      Hiệu năng ấn tượng - Snapdragon 680 8 nhân cùng RAM 4GB, bộ nhớ 64GB ;      Chinh phục mọi khoảnh khắc - Cụm 4 camera 50MP, nhiều chế độ chụp tiện ích ;       Thoải mái sử dụng không lắng lo - Viên pin 5000 mAh, sạc nhanh 33 W"
+    },
+    {
+      "id": 6,
+      "name": "POCO X4 GT",
+      "img": [
+        {
+          "description": "Xanh ",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/m/pms_1655902420.18254534_1_1.png"
+        },
+        {
+          "description": "Bạc",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/m/pms_1655902524.25473594_1_3.png"
+        },
+        {
+          "description": "Xám",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/m/pms_1655902438.71275038_1_3.png"
+        }
+      ],
+      "price": 7690000,
+      "price_old": 8490000,
+      "cat_id": 1,
+      "rating": 5,
+      "stored": 50,
+      "promotion": "Thu cũ đổi mới - Trợ giá đến 300.000đ",
+      "detail": [
+        "Thiết kế đơn giản nhưng vẫn thanh lịch và trẻ trung, phù hợp với các bạn trẻ cá tính",
+        "Xử lý tác vụ nặng, cùng khả năng đa nhiệm ấn tượng - Chip MediaTek Dimensity 8100",
+        "Trải nghiệm chạm vuốt mượt mà - Màn hình 6.6 inches, IPS LCD, 144Hz",
+        "Thời lượng sử dụng dài với tốc độ sạc ấn tượng - 5080 mAh, sạc nhanh 67W"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "iPhone 11 128GB I Chính hãng VN/A",
+      "img": [
+        {
+          "description": "Tím ",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/i/p/iphone11-purple-select-2019_3.png"
+        },
+        {
+          "description": "Bạc",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/m/pms_1655902524.25473594_1_3.png"
+        },
+        {
+          "description": "Xám",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/m/pms_1655902438.71275038_1_3.png"
+        }
+      ],
+      "price": 13190000,
+      "price_old": 16990000,
+      "cat_id": 1,
+      "stored": 50,
+      "promotion": "[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ",
+      "rating": 5,
+      "detail": "Màu sắc phù hợp cá tính - 6 màu sắc bắt mắt để lựa chọn ;      Hiệu năng mượt mà, ổn định - Chip A13, RAM 4GB ;      Bắt trọn khung hình - Camera kép hỗ trợ góc rộng, chế độ Night Mode ;      Yên tâm sử dụng - Kháng nước, kháng bụi IP68, kính cường lực Gorilla Glass"
+    },
+    {
+      "id": 8,
+      "name": "Samsung Galaxy A73 (5G) 256GB",
+      "img": [
+        {
+          "description": "Trắng ",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/a/samsung-galaxy-a73-1-600x600_3_1.jpg"
+        },
+        {
+          "description": "Bạc",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/m/pms_1655902524.25473594_1_3.png"
+        },
+        {
+          "description": "Xám",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/m/pms_1655902438.71275038_1_3.png"
+        }
+      ],
+      "price": 10790000,
+      "price_old": 12990000,
+      "cat_id": 1,
+      "stored": 50,
+      "promotion": "Thu cũ đổi mới - Trợ giá đến 300.000đ",
+      "rating": 5,
+      "detail": "Camera chất lượng, bắt trọn từng khoảng khắc - Cụm 4 camera với cảm biến chính lên đến 108 MP;      Thưởng thức không gian giải trí cực đỉnh - Màn hình lớn 6.7 inch, độ phân giải Full HD+, 120Hz mượt mà;      Cấu hình Galaxy A73 5G được nâng cấp mạnh với chip Snapdragon 778G, RAM lên đến 8 GB ;      Chiến game thoải mái không lo gián đoạn - Viên pin lớn 5000 mAh, hỗ trợ sạc nhanh 25 W"
+    },
+    {
+      "id": 9,
+      "name": "Samsung Galaxy A33 (5G)",
+      "img": [
+        {
+          "description": "Xanh ",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/d/o/download_10_13.png"
+        },
+        {
+          "description": "Bạc",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/m/pms_1655902524.25473594_1_3.png"
+        },
+        {
+          "description": "Xám",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/m/pms_1655902438.71275038_1_3.png"
+        }
+      ],
+      "price": 6900000,
+      "price_old": 7290000,
+      "cat_id": 1,
+      "promotion": "PMH 400.000 ₫",
+      "rating": 5,
+      "stored": 50,
+      "detail": "Màn hình giải trí lớn, sắc nét từng chi tiết - 6.4 inch, Full HD+ cho hình ảnh sắc nét, chân thực;      4 camera hỗ trợ chụp ảnh chuyên nghiệp - Camera chính lến đến 48 MP ghi lại trọn vẹn chi tiết đáng giá;      Cấu hình ổn định, xử lí đa dạng tác vụ - Vi xử lý Exynos 1280 hỗ trợ 5G kết hợp cùng RAM 6 GB;       Kháng nước chuẩn IP67 - An tâm sử dụng trong mọi môi trường và tính huống"
+    },
+    {
+      "id": 10,
+      "name": "Samsung Galaxy S22 Ultra (8GB - 128GB)",
+      "img": [
+        {
+          "description": "Đen ",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_phantomblack_211119_5.jpg"
+        },
+        {
+          "description": "Bạc",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/m/pms_1655902524.25473594_1_3.png"
+        },
+        {
+          "description": "Xám",
+          "url": "https://cdn2.cellphones.com.vn/358x/media/catalog/product/p/m/pms_1655902438.71275038_1_3.png"
+        }
+      ],
+      "price": 24990000,
+      "price_old": 30990000,
+      "cat_id": 1,
+      "promotion": "Nhập mã MOCASAMSUNG ngay giảm 1 triệu khi thanh toán điện thoại SS từ 19 triệu qua ví Moca trên ứng dụng GRAB",
+      "rating": 5,
+      "stored": 50,
+      "detail": "Vi xử lý mạnh mẽ nhất Galaxy - Snapdragon 8 Gen 1 (4 nm);      Camera mắt thần bóng đêm Nightography - Chụp đêm cực đỉnh;      S Pen đầu tiên trên Galaxy S - Độ trễ thấp, dễ thao tác;      Dung lượng pin bất chấp ngày đêm - Viên pin 5000mAh, sạc nhanh 45W"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "customer_name": "Nguyễn Lê Phương Nam ",
+      "customer_address": "123/456 Hồ Chí Minh",
+      "customer_email": "nlpn@gmail.com",
+      "customer_phone": "0869334069",
+      "create_date": "1/1/2022",
+      "status": "thành công",
+      "detail": [
+        {
+          "product_id": 1,
+          "quantity": 1,
+          "price": 26990000,
+          "name": "iPhone 13 Pro Max 128GB | Chính hãng VN/A"
+        },
+        {
+          "product_id": 2,
+          "quantity": 1,
+          "price": 18990000,
+          "name": "iPhone 13 128GB | Chính hãng VN/A"
+        }
+      ],
+      "total": 45980000
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "nlpn@gmail.com",
+      "username": "admin",
+      "password": "123",
+      "role": 1
+    },
+    {
+      "id": 2,
+      "email": "nam@gmail.com",
+      "username": "nam",
+      "password": "123",
+      "role": 0
+    }
+  ]
+}

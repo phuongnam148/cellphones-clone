@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="css/gio_hang.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0"
+        nonce="OqiRxGSg"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=357785669231110&autoLogAppEvents=1"
+        nonce="KZqtrseW"></script>
+    <div class="row header">
+        <div class="box_center">
+            <div class="logo">
+                <a href="index.html"><img id="logo-nav" src="img/screenshot_1632557892.png" alt=""></a>
+                <a href="index.html"><img id="logo-cellphone" src="img/download.png" alt=""></a>
+            </div>
+
+            <div class="ton-kho">
+                Xem giá, tồn kho tại: Hồ Chí Minh
+                <ul class="drop-box">
+                    <li><a href="">Hồ Chí Minh</a> </li>
+                    <li><a href="">Hà Nội</a></li>
+                    <li><a href="">Bình Dương</a></li>
+                    <li><a href="">Hải Dương</a></li>
+                    <li><a href="">Hải Phòng</a></li>
+                    <li><a href="">Bắc Ninh</a></li>
+                </ul>
+            </div>
+
+            <input class="boxSearch" placeholder=" Bạn cần tìm gì?">
+            </input>
+            <div class="goi-mua-hang">
+                <a href="#3">
+                    <div> <i class="fa fa-phone"></i></div>
+                    <div>
+                        Gọi mua hàng <br> <strong>1800.2097</strong>
+                    </div>
+                </a>
+            </div>
+
+            <div class="cua-hang-gan">
+                <a href="#4">
+                    <div><i class="fa fa-map-marker-alt"></i></div>
+                    <div>Cửa hàng gần bạn</div>
+                </a>
+            </div>
+
+            <div class="tcdh">
+                <a href="#4">
+                    <div><i class="fa fa-truck-moving"></i> </div>
+                    <div>Tra cứu đơn hàng</div>
+                </a>
+            </div>
+
+            <div class="gio-hang">
+                <a href="gio_hang.html">
+                    <div><i class="fa fa-shopping-basket"></i></div>
+                    <div> Giỏ hàng</div>
+                </a>
+            </div>
+
+            <div class="smember">
+                <a href="#5">
+                    <img src="img/smember.png" alt="">
+                    <p>Smember</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <nav>
+            <div>
+                <a href="index.html"><i class="fa fa-angle-left"></i> Tiếp tục tìm kiếm sản phẩm</a>
+            </div>
+            <div>
+                Giỏ hàng của bạn
+            </div>
+        </nav>
+        <div id="tblcart">
+
+            <!-- <div class="module" >
+                <div class="module-right">
+                    <img src="img/iphone-12-pro-max-vang.jpg" alt="">
+                </div>
+                <div class="module-left">
+                    <div class="module-info">
+                        <p><strong>iPhone 12 Pro Max Chính Hãng (VN/A) Xanh</strong> </p>
+                        <p class="price">30.900.000 ₫</p>
+                        <p> - Khuyến mãi hãng:</p>
+                        <ul>
+                            <li>[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ</li>
+                            <li>Giảm 10% (tối đa 300k) khi thanh toán qua ví Moca trên ứng dụng Grab</li>
+                            <li>Giảm thêm tới 1% cho thành viên Smember</li>
+                        </ul>
+    
+                    </div>
+    
+                    <div class="control">
+                        <p>
+                            <Strong>Số lượng</Strong>
+                        </p>
+                        <label for="">
+                            <button type="button" id="btnMinutes" onclick="btnMinutes('1','30900000')"> - </button>
+                            <input id="so-luong" name="Number" type="input" value="1" >
+                            <button type="button" id="btnAdd" onclick="btnAdd('30900000')"> + </button>
+                        </label>
+                    </div>
+                </div>
+    
+            </div> -->
+        </div>
+
+        <hr>
+        <div class="ma-khuyen-mai">
+            - Nhập mã khuyến mại (nếu có):
+            <label for="">
+                <input type="text">
+                <input type="button" name="" id="" value="Áp dụng">
+            </label>
+        </div>
+
+        <hr>
+
+        <div class="tong-tien">
+            <div>
+                <p>- Mã giảm giá:</p>
+                <p>- Tổng tiền:</p>
+            </div>
+
+            <div id="right" align='right'>
+                <p>0 ₫</p>
+                <div id="tongtien" style="display: none;"></div>
+                <span id="tong-tien"></span>
+            </div>
+        </div>
+        <hr>
+
+        <div class="thong-tin-mua-hang">
+            <h2>Thông tin mua hàng</h2>
+            <p>
+                (Bạn cần nhập đầy đủ các trường thông tin có dấu *)
+            </p>
+
+            <form action="">
+                <div class="input-row">
+                    <div class="input-col">
+                        <div class="input-control">
+                            <input name="Name" id="fullName" type="text" placeholder="Họ và tên *" data-required="1"
+                                pattern="/(\w|\s|[\.\'-])+/" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-col">
+                        <div class="input-control">
+                            <input name="Phone" id="phone" type="tel" placeholder="Số điện thoại *" pattern="0\d{9,10}"
+                                required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-col">
+                        <div class="input-control">
+                            <input name="City" type="tel" placeholder="TP HCM *" data-required="1" readonly>
+                        </div>
+                    </div>
+                    <div class="input-col">
+                        <div class="input-control">
+                            <!-- <input name="quan" type="tel" placeholder="Quận/Huyện *" data-required="1"> -->
+                            <select id="SystemDistrictID" name="SystemDistrictID" placeholder="Quận/Huyện *"
+                                data-required="1">
+                                <option value="">Quận/Huyện</option>
+                                <option value="552">Quận 1</option>
+                                <option value="553">Quận 12</option>
+                                <option value="554">Quận Thủ Đức</option>
+                                <option value="555">Quận 9</option>
+                                <option value="556">Quận Gò Vấp</option>
+                                <option value="557">Quận Bình Thạnh</option>
+                                <option value="558">Quận Tân Bình</option>
+                                <option value="559">Quận Tân Phú</option>
+                                <option value="560">Quận Phú Nhuận</option>
+                                <option value="561">Quận 2</option>
+                                <option value="562">Quận 3</option>
+                                <option value="563">Quận 10</option>
+                                <option value="564">Quận 11</option>
+                                <option value="565">Quận 4</option>
+                                <option value="566">Quận 5</option>
+                                <option value="567">Quận 6</option>
+                                <option value="568">Quận 8</option>
+                                <option value="569">Quận Bình Tân</option>
+                                <option value="570">Quận 7</option>
+                                <option value="571">Huyện Củ Chi</option>
+                                <option value="572">Huyện Hóc Môn</option>
+                                <option value="573">Huyện Bình Chánh</option>
+                                <option value="574">Huyện Nhà Bè</option>
+                                <option value="575">Huyện Cần Giờ</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="input-row">
+                    <div class="input-col">
+                        <div class="input-control">
+                            <input name="Address" id="address" type="text" placeholder="Địa chỉ nhận hàng *"
+                                data-required="1" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-col">
+                        <div class="input-control">
+                            <input name="Email" id="email" type="email" placeholder="Email *" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-col">
+                        <div class="input-control">
+                            <textarea name="Note" placeholder="Ghi chú" spellcheck="false" data-minlength="15"
+                                style="height: 70px; overflow-y: hidden;"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-button-tts ">
+                        <button type="button" id="submitBtn" value="send">XÁC NHẬN VÀ ĐẶT HÀNG</button>
+                    </div>
+                </div>
+            </form>
+
+
+
+        </div>
+    </div>
+
+    <div class="row footer shadow">
+        <div class="box_center">
+            <div class="footer_content ">
+                <div class="footer_row ">
+                    <a href="">Mua hàng từ xa</a>
+                    <a href="" style="color: red;"> Gặp trực tiếp cửa hàng gần nhất (Zalo hoặc gọi điện) </a>
+                    <h5>
+                        Phương thức thanh toán
+                    </h5>
+                    <div class="payment">
+                        <div class="shadow">
+                            <a href=""><img src="img/1_visa.png" alt=""></a>
+                        </div>
+                        <div class="shadow">
+                            <a href=""><img src="img/zalo_pay.png" alt=""></a>
+                        </div>
+                        <div class="shadow">
+                            <a href=""><img src="img/momo.png" alt=""></a>
+                        </div>
+                        <div class="shadow">
+                            <a href=""><img src="img/vnpay.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_row">
+                    <a href="">Gọi mua hàng: 1800.2097 (8h00 - 22h00)</a>
+                    <a href="">Gọi khiếu nại: 1800.2063 (8h00 - 21h30)</a>
+                    <a href="">Gọi bảo hành: 1800.2064 (8h00 - 21h00)</a>
+                    <h5>Đối tác dịch vụ bảo hành</h5>
+                    <a href="">
+                        <img src="img/dien_thoai_vui.png" alt="" class="dien_thoai_vui">
+                    </a>
+                </div>
+                <div class="footer_row">
+                    <a href="">Mua hàng và thanh toán Online</a>
+                    <a href="">Mua hàng trả góp Online</a>
+                    <a href="">Tra thông tin đơn hàng</a>
+                    <a href="">Tra điểm Smember</a>
+                    <a href="">Tra thông tin bảo hành</a>
+                    <a href="">Tra cứu hoá đơn điện tử</a>
+                    <a href="">Trung tâm bảo hành chính hãng</a>
+                    <a href="">Quy định về việc sao lưu dữ liệu</a>
+                    <a href="">Dịch vụ bảo hành điện thoại</a>
+                </div>
+                <div class="footer_row">
+                    <a href="">
+                        Quy chế hoạt động
+                    </a>
+                    <a href="">
+                        Chính sách Bảo hành
+                    </a>
+                    <a href="">
+                        Liên hệ hợp tác kinh doanh
+                    </a>
+                    <a href="">
+                        Đơn Doanh nghiệp
+                    </a>
+                    <a href="">
+                        Ưu đãi từ đối tác
+                    </a>
+                    <a href="">
+                        Tuyển dụng
+                    </a>
+                </div>
+
+            </div>
+            <!-- <div class="map">
+                <h2>Tìm cửa hàng</h2>
+                <p>525A Quang Trung, P.10, Quận Gò Vấp
+                    <br> TRUNG TÂM LAPTOP - SMARTHOME</p>
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12AFhxHOTBfIA_UV0QP-DZOG8skCL2yUX" width="90%" height="480"></iframe>
+            </div> -->
+        </div>
+
+        <div class="map shadow ">
+            <div class="box_center">
+                <strong>Hệ Thống cửa hàng bán lẻ CellphoneS</strong>
+                <br> Giờ cửa mở cửa: 8h00 - 22h00 (Áp dụng tuỳ cửa hàng)
+                <div class="map-col">
+                    <div>
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12AFhxHOTBfIA_UV0QP-DZOG8skCL2yUX"
+                            width="100%" height="250"></iframe>
+                        <strong>525A Quang Trung, P.10, Quận Gò Vấp</strong>
+                        <br> <strong style="color: red;"> TRUNG TÂM LAPTOP - SMARTHOME</strong>
+                        <br> Gọi shop: <strong>02871000525</strong>
+                    </div>
+                    <div>
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1cWoPUipB0he7GF7CojgXzgJcbpB3fu2S"
+                            width="100%" height="250"></iframe>
+                        <strong>5 Nguyễn Kiệm, P. 3, Q. Gò Vấp</strong>
+                        <br> Gọi shop: <strong> 02871063535</strong>
+                    </div>
+                    <div>
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14C5wfjoyiIG7ZBhEe6qZjNKDqtFTca2c"
+                            width="100%" height="250"></iframe>
+                        <strong>59 Quang Trung, P. 10, Q. Gò Vấp</strong>
+                        <br> Gọi shop: <strong> 02871063535</strong>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <a href="#" id="myBtn">
+        <i class="fa fa-angle-up"></i>
+    </a>
+    <script src="https://uhchat.net/code.php?f=d7f4f3"></script>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                mybutton.style.display = "flex";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- <div class="box_center">
+        <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="5"></div>
+    </div> -->
+    <script src="js/script.js"></script>
+    <script src="js/giohang.js"></script>
+
+    <script type="module" src="js/firebase.js"></script>
+
+    <script type="module">
+        import {
+            get,
+            child,
+            getDatabase,
+            ref,
+            set,
+        } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-database.js";
+
+        const db = getDatabase();
+        const dbRef = ref(db);
+
+        document.getElementById('submitBtn').onclick = () => {
+            get(child(dbRef, "orders"))
+                .then((snapshot) => {
+                    let orders_length = snapshot.val().length;
+
+                    var name = document.getElementById("fullName").value.trim();
+                    var phone = document.getElementById("phone").value.trim();
+                    var address = document.getElementById("address").value.trim();
+                    var email = document.getElementById("email").value.trim();
+
+
+                    let cart = JSON.parse(localStorage.getItem("cart"));
+                    let detail = [];
+                    let total = document.getElementById('tongtien').innerText;
+                    cart.forEach(element => {
+                        detail.push({
+                            product_img: element.image,
+                            product_name: element.name,
+                            product_id: element.id,
+                            quantity: element.quatity,
+                            price: element.price
+                        })
+                    });
+                    var donhang = {
+                        customer_name: name,
+                        customer_address: address,
+                        customer_email: email,
+                        customer_phone: phone,
+                        create_date: new Date().toISOString().slice(0, 10),
+                        detail,
+                        total,
+                        status: "Chờ xác nhận",
+                        id: orders_length+1,
+                    }
+                    console.log(donhang);
+                    set(ref(db, "orders/" + orders_length), donhang).then(() => {
+                        alert('Đặt hàng thành công')
+                    });
+
+                })
+                .catch((error) => {
+                    console.error(error);
+                });
+        }
+
+
+    </script>
+</body>
+
+</html>
